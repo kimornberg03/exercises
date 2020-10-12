@@ -1,4 +1,10 @@
-function dubble(a, b) {
+const a = 5
+const b = 6
 
-    return a * b
+function dubble() {
+
+    return a + b
+
 }
+
+console.log(dubble())
