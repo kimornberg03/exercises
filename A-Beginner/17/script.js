@@ -1,10 +1,13 @@
-function IsTanja() {
+console.log(IsTanja('Tanja'))
+
+
+function IsTanja(X) {
+
+
+    if (X == "Tanja") {
+        return true
+    } else {
+        return false
+    }
 
 }
-if (IsTanja = "Tanja")
-
-    console.log("True")
-
-else
-
-    console.log("False")
